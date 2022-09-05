@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\nodumo\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\nodumo\\.nuget\\packages"
+    ]
+  }
+}
