@@ -1,0 +1,32 @@
+USE [UserManagementdb]
+GO
+SET IDENTITY_INSERT [dbo].[Questions] ON 
+GO
+INSERT [dbo].[Questions] ([QnId], [QnInWords], [ImageName], [Option1], [Option2], [Option3], [Option4], [Answer]) VALUES (1, N'What does WebHost.CreateDefaultBuilder() do?', NULL, N'Configure logging to read from the Logging section of the appsettings.json file and log to the Console and Debug window', N'Configure integration with IIS', N'Configure the default service provider', N'All of the above', 3)
+GO
+INSERT [dbo].[Questions] ([QnId], [QnInWords], [ImageName], [Option1], [Option2], [Option3], [Option4], [Answer]) VALUES (2, N'ASP.NET Core works with?', NULL, N'NET Core framework', N'NET framework', N'Both of these', N'None', 3)
+GO
+INSERT [dbo].[Questions] ([QnId], [QnInWords], [ImageName], [Option1], [Option2], [Option3], [Option4], [Answer]) VALUES (3, N'What is Startup.cs in Asp.net Core?', NULL, N'In ASP.net Core','startup.cs is the entry point for your application', N'In Startup.cs file', N'The constructor loads the AppSettings.json file using ConfigurationBuilder class', N'All of the above', 1)
+GO
+INSERT [dbo].[Questions] ([QnId], [QnInWords], [ImageName], [Option1], [Option2], [Option3], [Option4], [Answer]) VALUES (4, N'What is ActionResult in ASP.NET MVC?', NULL, N'Interface', N'Variable', N'Return type of a controller method', N'None of the above', 3)
+GO
+INSERT [dbo].[Questions] ([QnId], [QnInWords], [ImageName], [Option1], [Option2], [Option3], [Option4], [Answer]) VALUES (5, N'______ is the default authentication in Internet Information Services(IIS).', NULL, N'Administrator', N'Anonymous', N'Standard User', N'All of the above', 3)
+GO
+INSERT [dbo].[Questions] ([QnId], [QnInWords], [ImageName], [Option1], [Option2], [Option3], [Option4], [Answer]) VALUES (6, N'ASP.NET Core works with?', NULL, N'.NET Core framework', N'.NET framework', N'Both of these', N'None of the above', 2)
+GO
+INSERT [dbo].[Questions] ([QnId], [QnInWords], [ImageName], [Option1], [Option2], [Option3], [Option4], [Answer]) VALUES (7, N'Select all the methods that can be used to pass data from the controller to the view.', NULL, N'By setting properties on the model that is passed to the view', N'By setting properties on the web controls that the view contains', N'By using the views helper methods', N'By using ViewData dictionary', 3)
+GO
+INSERT [dbo].[Questions] ([QnId], [QnInWords], [ImageName], [Option1], [Option2], [Option3], [Option4], [Answer]) VALUES (8, N'Which of the following object encapsulates the state of the client and the browser?', NULL, N'Server object', N' Request object', N'Response object', N'Session object', 3)
+GO
+INSERT [dbo].[Questions] ([QnId], [QnInWords], [ImageName], [Option1], [Option2], [Option3], [Option4], [Answer]) VALUES (9, N' What are the various JSON files in ASP.NET Core?', NULL, N'Global.json', N'Launchsettings.json', N'Appsettings.json', N'All of the above', 3)
+GO
+INSERT [dbo].[Questions] ([QnId], [QnInWords], [ImageName], [Option1], [Option2], [Option3], [Option4], [Answer]) VALUES (10, N'What is Startup.cs in Asp.net Core?', NULL, N'In ASP.net Core,startup.cs is the entry point for your application', N'In Startup.cs file', N'All of the above', N'The constructor loads the AppSettings.json file using ConfigurationBuilder class', 2)
+GO
+SET IDENTITY_INSERT [dbo].[Questions] OFF
+GO
+
+USE [UserManagementdb]
+GO
+SET IDENTITY_INSERT [dbo].[Questions] ON 
+GO
+
